@@ -1,0 +1,40 @@
+{
+  "name": "nervsys/ns",
+  "description": "A very slight PHP framework, very easy to use and integrate.",
+  "type": "project",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Jerry",
+      "email": "27206617@qq.com"
+    }
+  ],
+  "keywords": [
+    "ns",
+    "api",
+    "nervsys",
+    "framework"
+  ],
+  "require": {
+    "php": "^7.4",
+    "ext-curl": "*",
+    "ext-fileinfo": "*",
+    "ext-gd": "*",
+    "ext-gettext": "*",
+    "ext-libxml": "*",
+    "ext-json": "*",
+    "ext-openssl": "*",
+    "ext-pdo": "*",
+    "ext-redis": "*",
+    "ext-simplexml": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "./Core",
+      "Ext\\": "./Ext"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
